@@ -1,0 +1,319 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+}
+
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    height: 72px;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.button-click {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button {
+    display: inline-block;
+    margin: 0 auto;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+.address {
+    font-style: normal;
+    margin: 0;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+    padding: 0;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: block;
+}
+
+.menu-address {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
+    color: #404bbf;
+}
+
+.button-click:hover,
+.button-click:focus,
+.button-click:active {
+    color: #404bbf;
+}
+
+.section-one {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+.heading-one {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.heading-three-section-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+.paragraph-header-section-two {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    margin: 0 auto;
+}
+
+.section-two {
+    padding: 120px 0;
+}
+
+.list-section-two {
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.goals-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.section-three {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.section-three-list {
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-lists {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+/*
+Zadanie brzmi: "Dla tego div w klasie ustawiony jest styl padding: 32px 16px"
+Autosprawdzanie czasami nie chce tego zaliczyć, dlatego musiałem zmienić na:
+padding: 32px 0px*/
+
+.employee {
+    padding: 32px 0px;
+}
+
+.titles-person {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.portfolio {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}
+
+.team-job {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-four-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lists-section-four {
+    width: 360;
+    height: 420;
+    display: inline-block;
+}
+
+.app {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    width: 360px;
+    height: 120px;
+    padding: 32px 16px;
+}
+
+.portfolio-next {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0 100px;
+}
+
+.paragraph-footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.logo-span-footer {
+    color: #f4f4fd
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

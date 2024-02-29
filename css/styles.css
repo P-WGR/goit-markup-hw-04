@@ -9,6 +9,12 @@
     border-radius: 2px;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 
 body {
     background-color: #ffffff;
